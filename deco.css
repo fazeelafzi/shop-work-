@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  width: 90px;
+  mix-blend-mode: multiply;
+}
+.navbar {
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./dry.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  margin-top: 20%;
+  max-width: 600px;
+  margin-left: 25%;
+}
+.content h1 {
+  font-size: 80px;
+  color: #222;
+}
+.cotent p {
+  margin: 10px 0 30px;
+}
+.gift {
+  background-color: #f6f5ec;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+.spot-light {
+  padding: 3rem;
+  text-align: left;
+}
+.images {
+  background-color: #e1daca;
+}
+.items {
+  height: 400px;
+}
+.image-resize {
+  height: 325px;
+  width: 285px;
+  object-fit: cover;
+  object-position: center center;
+  gap: 2.5rem;
+  overflow: hidden;
+}
+.images .row {
+  overflow: hidden;
+  padding: 0px;
+}
+.about {
+  background-image: url(./wp10344528-white-silk-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.about img {
+  height: 325px;
+  width: 285px;
+  border-radius: 6.25rem;
+}
+#image-2 {
+  padding-left: 1rem;
+}
+.offers {
+  background-image: url(./leaf.jpg);
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 5rem;
+  overflow: hidden;
+}
+.offers .shop-now {
+  padding-top: 3rem;
+  justify-content: center;
+  position: relative;
+}
+.offers .button {
+  border-radius: 10px;
+  border-top-right-radius: 0%;
+  width: 7rem;
+  background-color: #fff;
+}
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: aliceblue;
+  padding-left: 4rem;
+}
